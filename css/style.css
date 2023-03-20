@@ -169,7 +169,23 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
   }
   .link img {
-    height: auto !important;
+    height: 120px !important;
+  }
+}
+@media (max-width: 425px) {
+  .link {
+    width: 50%;
+  }
+  .link img {
+    height: 100px !important;
+  }
+}
+@media (max-width: 370px) {
+  .link {
+    width: 50%;
+  }
+  .link img {
+    height: 75px !important;
   }
 }
 
